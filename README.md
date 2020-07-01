@@ -9,7 +9,8 @@ The training procedure produces a checkpoint file, which can be used to continue
 
 ## Model architecture
 The Model uses a sequence of convolutional submodels, each submodel constructed as illustrated below with 2 convolutional layers and a residual network block containing 4 convolutions in between. Each submodel yields the next predicted heat map, which is subsequently recombined with the heat source map and reused to predict the following time step. The submodels for the prediction of time steps <img src="https://render.githubusercontent.com/render/math?math=t > 5"> share the weights pairwise (i.e. 2 subsequent submodels share weights). Kernel Size is 3 for all layers.
-![](Submodule_architecture.png =250x250)
+![Submodel Architecture](Submodel_architecture.png "Submodule architecture (Created with https://alexlenail.me/NN-SVG/LeNet.html)")
+<!-- .element height="50%" width="50%" -->
 
 ## Correspondence for further information to:<br>
 thomas.wuthrich@alumni.epfl.ch<br>
