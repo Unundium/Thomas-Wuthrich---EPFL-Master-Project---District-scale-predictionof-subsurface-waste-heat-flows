@@ -12,6 +12,6 @@ The Model uses a sequence of convolutional submodels, each submodel constructed 
 ![Alt text](Submodel_architecture.png?raw=true "Submodel architecture. (Created with: https://alexlenail.me/NN-SVG/LeNet.html)")
 
 
-Correspondence for further information to:<br>
+## Correspondence for further information to:<br>
 thomas.wuthrich@alumni.epfl.ch<br>
 joel.zbinden@alumni.epfl.ch
