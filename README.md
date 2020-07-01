@@ -1,5 +1,5 @@
 # Thomas Wüthrich - EPFL-Master-Project
-## District scale prediction of subsurface waste heat flows
+### District scale prediction of subsurface waste heat flows
 Further exploration of ground temperature prediction using machine and deep learning approaches.<br>
 This repository contains the files used for the further exploration of the prediction of subsurface temperature distribution used for the EPFL Master thesis in Geotechnics "District scale prediction of subsurface waste heat flows".
 
