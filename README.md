@@ -6,9 +6,13 @@ We propose a quick and accurate machine learning (ML) based approach for the eva
 <br>
 This repository contains the files used for the further exploration of the prediction of subsurface temperature distribution used for the EPFL Master thesis in Geotechnics "District scale prediction of subsurface waste heat flows".
 
+## Available Data
+The data set is composed of solved small scale models (16m x 16m) with four or six heat sources with identical temperature, simulated using the finite element software package COMSOL. The heat map is created by discretizing the domain of interest in square elements. The discretization resolution thus determines the input size (NxN).
+
+
 ## Usage instructions
 The available data from finite element simulations is available in the Time_Data.mat file. It's data and a visualization example can be found by running the Visualize_Data.py file. <br>
-The main python file can be run in the folder as-is. It uses the PyTorch Residual Network style convolutional neural network defined in the Model.py file. The model is defined as explained below. Note that the model input consists solemnly of the initial temperature distribution and a map describing the location of the heat sources.<br>
+The main python file can be run in the folder as-is. It uses the PyTorch (Version 1.4, newer versions have not been verified) Residual Network style convolutional neural network defined in the Model.py file. The model is defined as explained below. Note that the model input consists solemnly of the initial temperature distribution and a map describing the location of the heat sources.<br>
 The training procedure produces a checkpoint file, which can be used to continue training if wished so. Note that the optimizer is reset when rerunning, even when continuing training! CNN_ResNet_checkpoint.pth provides a pretrained version of a model which can be refined by continuing training or used as-is for validation and evaluation. 
 
 ## Model architecture
