@@ -1,4 +1,4 @@
-# Thomas Wüthrich - EPFL-Master-Project
+# Thomas Wüthrich - EPFL Master Thesis
 ### District scale prediction of subsurface waste heat flows
 
 The underground is becoming increasingly important in urban planning. The human-made underground structures generate an anthropogenic heat flow which has a significant impact on the ground temperature and leads to the creation of urban underground heat islands (UUHI). The UUHI have a high geothermal potential and are therefore of great interest for energy production. <br>
