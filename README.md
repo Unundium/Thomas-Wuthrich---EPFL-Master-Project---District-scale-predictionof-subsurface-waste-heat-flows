@@ -1,6 +1,9 @@
 # Thomas Wüthrich - EPFL-Master-Project
 ### District scale prediction of subsurface waste heat flows
-Further exploration of ground temperature prediction using machine and deep learning approaches.<br>
+
+The underground is becoming increasingly important in urban planning. The human-made underground structures generate an anthropogenic heat flow which has a significant impact on the ground temperature and leads to the creation of urban underground heat islands (UUHI). The UUHI have a high geothermal potential and are therefore of great interest for energy production. <br>
+We propose a quick and accurate machine learning (ML) based approach for the evaluation of the underground waste heat flow of buildings with focus on the ground temperature change due to heat losses of basements. We assume only a conductive heat flow mode and constant boundary conditions. The allows to establish 2D heat maps for a given depth and a simulation time period, using only the results for shorter simulation time periods. 
+<br>
 This repository contains the files used for the further exploration of the prediction of subsurface temperature distribution used for the EPFL Master thesis in Geotechnics "District scale prediction of subsurface waste heat flows".
 
 ## Usage instructions
